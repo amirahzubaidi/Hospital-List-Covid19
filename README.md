@@ -1,4 +1,17 @@
-# Sample Snack app
+### Hospital-List-Covid19
+
+Berikut ini link video penggunaan aplikasi diatas: 
+https://drive.google.com/file/d/1_Efx9xK-5n_C3cMb0GetvN3mG-o67YRp/view?usp=sharing
+
+Saya menggunakan Snack Expo Dev untuk pengembangan aplikasi React Native, berikut struktur proyek dan komponen GUI yang diperlukan:
+Struktur Folder & File yang Digunakan
+•	assets/ → Menyimpan gambar rumah sakit (jika menggunakan gambar lokal).
+•	components/ → Berisi komponen UI yang dapat digunakan ulang, seperti HospitalCard.js untuk menampilkan rumah sakit, EmptyState.js untuk menampillkan pesan jika daftar rumah sakit tidak tersedia, Header.js merupakan judul dari list rumah sakit covid.
+•	App.js → Entry point aplikasi yang akan mengatur navigasi.
+•	index.js → Entry point utama yang me-render App.js.
+•	package.json → Berisi dependensi proyek, seperti react-navigation dan react-native-maps.
+
+### Sample Snack app
 
 Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
